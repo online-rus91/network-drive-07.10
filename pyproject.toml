@@ -1,0 +1,10 @@
+[project]
+name = "flet-disks-final"
+version = "0.1.0"
+description = "Student OOP Flet project"
+requires-python = ">=3.10"
+dependencies = ["flet"]
+
+[tool.flet.app]
+path = "src"
+module = "main.py"
